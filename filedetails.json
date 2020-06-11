@@ -1,10 +1,9 @@
 {
-   "ovpn_file":[
-      {
-         "id":0,
-         "file":"dev tun
+  "ovpn_file": [
+    {
+      "id": 0,
+      "file": "dev tun
 proto udp
-remote vpn984160303.opengw.net 1194
 cipher AES-128-CBC
 auth SHA1
 resolv-retry infinite
@@ -48,7 +47,9 @@ VXyNWQKV3WKdwrnuWih0hKWbt5DHDAff9Yk2dDLWKMGwsAvgnEzDHNb842m1R0aB
 L6KCq9NjRHDEjf8tM7qtj3u1cIiuPhnPQCjY/MiQu12ZIvVS5ljFH4gxQ+6IHdfG
 jjxDah2nGN59PRbxYvnKkKj9
 -----END CERTIFICATE-----
+
 </ca>
+
 <cert>
 -----BEGIN CERTIFICATE-----
 MIICxjCCAa4CAQAwDQYJKoZIhvcNAQEFBQAwKTEaMBgGA1UEAxMRVlBOR2F0ZUNs
@@ -98,7 +99,9 @@ va8q4QKBgQCEhLVeUfdwKvkZ94g/GFz731Z2hrdVhgMZaU/u6t0V95+YezPNCQZB
 wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
-</key>"
-      }
-   ]
+
+</key>
+"
+    }
+  ]
 }
