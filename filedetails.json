@@ -4,7 +4,7 @@
          "id":0,
          "file":"dev tun
 proto udp
-remote 219.100.37.213 1195
+remote vpn984160303.opengw.net 1194
 cipher AES-128-CBC
 auth SHA1
 resolv-retry infinite
@@ -13,7 +13,6 @@ persist-key
 persist-tun
 client
 verb 3
-#auth-user-pass
 <ca>
 -----BEGIN CERTIFICATE-----
 MIIF3jCCA8agAwIBAgIQAf1tMPyjylGoG7xkDjUDLTANBgkqhkiG9w0BAQwFADCB
@@ -51,17 +50,6 @@ jjxDah2nGN59PRbxYvnKkKj9
 -----END CERTIFICATE-----
 
 </ca>
-
-
-###############################################################################
-# The client certificate file (dummy).
-# 
-# In some implementations of OpenVPN Client software
-# (for example: OpenVPN Client for iOS),
-# a pair of client certificate and private key must be included on the
-# configuration file due to the limitation of the client.
-# So this sample configuration file has a dummy pair of client certificate
-# and private key as follows.
 
 <cert>
 -----BEGIN CERTIFICATE-----
@@ -113,7 +101,9 @@ wmE9Mmlbq1emDeROivjCfoGhR3kZXW1pTKlLh6ZMUQUOpptdXva8XxfoqQwa3enA
 M7muBbF0XN7VO80iJPv+PmIZdEIAkpwKfi201YB+BafCIuGxIF50Vg==
 -----END RSA PRIVATE KEY-----
 
-</key>"
+</key>
+
+"
       }
    ]
 }
